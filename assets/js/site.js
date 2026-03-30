@@ -160,7 +160,7 @@ const translations = {
       nav: "開車導航"
     },
 
-    footer: { rights: "W3 青旅版權所有 © 2026" },
+    footer: { rights: "W3 青旅 © 2026" },
 
     booking: {
       title: "快捷服務",
@@ -334,7 +334,7 @@ const translations = {
       nav: "Driving Navigation"
     },
 
-    footer: { rights: "Copyright © 2026 W3 Hostel. All Rights Reserved." },
+    footer: { rights: "W3 Hostel © 2026" },
 
     booking: {
       title: "Quick Access",
@@ -508,7 +508,7 @@ const translations = {
       nav: "カーナビ"
     },
 
-    footer: { rights: "W3 Hostel Copyright © 2026" },
+    footer: { rights: "W3 ホステル © 2026" },
 
     booking: {
       title: "クイックサービス",
@@ -682,7 +682,7 @@ const translations = {
       nav: "길찾기"
     },
 
-    footer: { rights: "W3 Hostel © 2026" },
+    footer: { rights: "W3 호스텔 © 2026" },
 
     booking: {
       title: "빠른 서비스",
