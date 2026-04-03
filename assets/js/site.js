@@ -247,7 +247,7 @@ const translations = {
       ogTitle: "Contact｜W3 Hostel Luodong",
       ogDescription: "Quickly view address, phone, email, and navigation info for W3 Hostel.",
       title: "Contact",
-      desc: "Whether you arrive by transit or by car, W3 Hostel is easy to find. You are also welcome to contact us by phone, email, or social media."
+      desc: "Whether you arrive by transit or by car, W3 Hostel is easy to find. You are also welcome to contact us by phone, email, or social media.",
       revealEmail: "Click to show email",
       revealPhone: "Click to show phone number",
     },
@@ -315,7 +315,7 @@ const translations = {
       ogTitle: "聯絡｜羅東 W3 ホステル",
       ogDescription: "住所、電話、メール、地図案内をすぐに確認できます。",
       title: "聯絡",
-      desc: "電車でも車でもアクセスしやすく、電話・メール・SNSからもお気軽にお問い合わせいただけます。"
+      desc: "電車でも車でもアクセスしやすく、電話・メール・SNSからもお気軽にお問い合わせいただけます。",
       revealEmail: "クリックして Email を表示",
       revealPhone: "クリックして電話番号を表示",
     },
@@ -383,7 +383,7 @@ const translations = {
       ogTitle: "연락｜뤄동 W3 호스텔",
       ogDescription: "주소, 전화, 이메일, 지도 안내를 빠르게 확인하세요.",
       title: "연락",
-      desc: "대중교통이나 자가용 모두 편리하며, 전화, 이메일, SNS로도 쉽게 문의하실 수 있습니다."
+      desc: "대중교통이나 자가용 모두 편리하며, 전화, 이메일, SNS로도 쉽게 문의하실 수 있습니다.",
       revealEmail: "클릭하여 이메일 표시",
       revealPhone: "클릭하여 전화번호 표시",
     },
