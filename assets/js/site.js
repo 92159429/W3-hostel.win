@@ -10,8 +10,8 @@ const translations = {
       eyebrow: "羅東住宿推薦｜宜蘭青年旅館・背包客棧",
       title: "在羅東，找到剛剛好的停留方式。",
       desc: "W3 青旅位於宜蘭羅東核心地段，鄰近羅東夜市、火車站與完整生活機能。結合便利外送、靜謐空間與舒適住宿體驗，無論自由行、背包客或短期停留，都能輕鬆享受更自在、更有效率的羅東旅程。",
-      cta1: "Agoda 訂房",
-      cta2: "Booking.com 預約",
+      cta1: "W3 訂房",
+      cta2: "Instagram",
       sec1k: "W3 住宿體驗",
       sec1t: "入住 W3，感受剛剛好的旅宿節奏",
       sec1d: "用最短時間理解 W3 最有感的三件事：地點、美食與空間。",
@@ -42,10 +42,8 @@ const translations = {
       sec4k: "立即預訂",
       sec4t: "準備好入住羅東了嗎？",
       sec4d: "立即查看房況與價格，選擇最適合你的訂房平台，開啟宜蘭旅程。",
-      book1: "Agoda 查看房況",
-      book1d: "快速查詢房況、日期與價格。",
-      book2: "Booking.com 立即預訂",
-      book2d: "直接前往預訂頁完成訂房。"
+      book1: "W3 訂房",
+      book1d: "查看房況、日期與價格。"
     },
 
     about: {
@@ -56,7 +54,7 @@ const translations = {
       heroTitle: "羅東 W3｜在城市中找到你的節奏與空間",
       heroDesc: "位於羅東核心生活圈，交通完整、生活便利、外送強，讓你在城市中自然切換工作、休息與放鬆節奏。",
       p1t: "交通便利的羅東住宿",
-      p1d: "W3 青旅鄰近羅東火車站與羅東轉運站，無論從台北搭火車或客運前往，都能快速抵達。對於想找羅東車站附近住宿、宜蘭自由行住宿的人來說，位置與移動效率都是很大的優勢。", 
+      p1d: "W3 青旅鄰近羅東火車站與羅東轉運站，無論從台北搭火車或客運前往，都能快速抵達。對於想找羅東車站附近住宿、宜蘭自由行住宿的人來說，位置與移動效率都是很大的優勢。",
       p2t: "生活機能完整、外送便利",
       p2d: "周邊商店、餐廳與便利商店密集，加上 Uber Eats 與 foodpanda 覆蓋完整，即使不出門，也能在住宿空間內輕鬆享受羅東美食。這也讓 W3 很適合作為羅東夜市住宿、宜蘭背包客住宿，或是短期停留的舒適落點。",
       p3t: "延伸探索宜蘭旅程",
@@ -109,7 +107,6 @@ const translations = {
       p2d: "從春季櫻花、夏日河濱，到秋季稻浪與節慶活動，羅東與周邊一年四季都有不同風景與節奏可探索。",
       p3t: "探索宜蘭自然風景",
       p3d: "依山傍水的宜蘭擁有森林、冷泉、地熱與山林景觀，適合將羅東作為旅程起點，延伸探索更多自然風景。",
-
       p4t: "鄰近景點",
       p4c1n: "🍡羅東觀光夜市",
       p4c1m: "車程 6 分鐘・步行 20 分鐘",
@@ -121,7 +118,6 @@ const translations = {
       p4c4m: "車程 12 分鐘",
       p4c5n: "👹宜蘭傳藝園區",
       p4c5m: "車程 12 分鐘",
-
       p5t: "季節活動嘉年華",
       p5c1n: "🌸 羅莊櫻花季",
       p5c1m: "每年 2 月中至 3 月初，羅莊櫻花步道，車程 2 分鐘・步行 10 分鐘",
@@ -131,7 +127,6 @@ const translations = {
       p5c3m: "全年適合前往，191 縣道，車程 約 10 分鐘",
       p5c4n: "🎆 村却國際溫泉酒店跨年煙火",
       p5c4m: "每年 12 月 31 日，車程 3 分鐘・步行 11 分鐘",
-
       p6t: "世界級景點",
       p6c1n: "🏔️太平山國家森林遊樂區",
       p6c1m: "車程 90 分鐘",
@@ -164,17 +159,14 @@ const translations = {
 
     booking: {
       title: "快捷服務",
-      agoda: "Agoda 訂房",
-      booking: "Booking.com 訂房",
-      contact: "聯絡我們",
-      phone: "立即撥打",
+      w3: "W3 訂房",
       line: "LINE 諮詢",
       ig: "Instagram"
     }
   },
 
   en: {
-    nav: ["Home", "W3", "Spaces & Facilities", "Travel Info", "Contact & Access"],
+    nav: ["Home", "W3", "Space", "Travel", "Contact"],
 
     home: {
       metaTitle: "W3 Hostel Luodong｜Yilan Hostel Near Night Market & Station",
@@ -184,8 +176,8 @@ const translations = {
       eyebrow: "Luodong Hostel in Yilan",
       title: "Find the stay rhythm that fits Luodong best.",
       desc: "W3 Hostel is located in central Luodong, close to Luodong Night Market, the train station, and everyday conveniences. With easy food delivery, a quiet atmosphere, and a clean, comfortable setting, it’s a great base for solo travelers, short stays, and trips with friends.",
-      cta1: "Book on Agoda",
-      cta2: "Reserve on Booking.com",
+      cta1: "Book on W3",
+      cta2: "Instagram",
       sec1k: "The W3 Experience",
       sec1t: "Why stay at W3?",
       sec1d: "Discover the three things that matter most here: location, food access, and comfort.",
@@ -216,10 +208,8 @@ const translations = {
       sec4k: "Book Now",
       sec4t: "Ready to stay in Luodong?",
       sec4d: "Check rates and availability now, then choose the booking platform that suits you best.",
-      book1: "Check Agoda Availability",
-      book1d: "Quickly view room status, dates, and rates.",
-      book2: "Book on Booking.com",
-      book2d: "Go straight to the booking page and complete your reservation."
+      book1: "Book on W3",
+      book1d: "Check availability, dates, and prices."
     },
 
     about: {
@@ -228,127 +218,48 @@ const translations = {
       ogTitle: "W3 Hostel Luodong｜Central Location & Convenient Stay in Yilan",
       ogDescription: "Located in Luodong’s core area, W3 offers transport convenience, strong amenities, and easy delivery access.",
       heroTitle: "W3 Luodong｜Find Your Rhythm and Space in the City",
-      heroDesc: "Located in Luodong’s core living district, W3 combines transport convenience, everyday amenities, and full delivery access so you can move naturally between work, rest, and downtime.",
-      p1t: "Conveniently Located Accommodation in Luodong",
-      p1d: "W3 Hostel is close to Luodong Railway Station and Luodong Transfer Station. Whether you are traveling from Taipei by train or bus, you can arrive quickly and easily. For travelers looking for accommodation near Luodong Station or planning a trip to Yilan, the location and accessibility are major advantages.",
-      p2t: "Excellent Living Convenience & Food Delivery Access",
-      p2d: "The surrounding area is filled with shops, restaurants, and convenience stores. With full coverage from Uber Eats and foodpanda, you can enjoy Luodong’s local cuisine without leaving your accommodation. This makes W3 an ideal choice for Luodong Night Market stays, backpacker lodging in Yilan, or short-term stays.",
-      p3t: "Gateway to Exploring Yilan",
-      p3d: "From W3, you can easily plan visits to Luodong Night Market, Luodong Forestry Culture Park, and other nearby attractions. You can also extend your journey to explore more destinations and natural landscapes in Yilan. For more details, please visit the pages for Facilities, Travel Information, and Contact & Transportation.",
-      c1t: "Location Advantage",
-      c1i1: "Luodong Train Station: about 5–8 minutes by car / about 15 minutes on foot",
-      c1i2: "Luodong Bus Station: about 5 minutes by car / about 12–15 minutes on foot",
-      c1i3: "Easy access from Taipei by direct train or coach",
-      c2t: "Daily Convenience",
-      c2i1: "Sushiro, POYA, and PX Mart are all nearby",
-      c2i2: "Dense coverage of 7-Eleven and FamilyMart",
-      c2i3: "Breakfast shops, restaurants, and drink stores within walking distance",
-      c2i4: "Food, essentials, and supplies are all easy to get",
-      c3t: "Delivery Advantage",
-      c3i1: "Full Uber Eats and foodpanda coverage",
-      c3i2: "Most popular Luodong meals can be delivered",
-      c3i3: "No lines and no need to go out",
-      c3i4: "Enjoy Luodong food without leaving the space"
+      heroDesc: "Located in Luodong’s core living district, W3 combines transport convenience, everyday amenities, and full delivery access so you can move naturally between work, rest, and downtime."
     },
 
     space: {
-      metaTitle: "Spaces & Facilities｜W3 Hostel Luodong",
+      metaTitle: "Space｜W3 Hostel Luodong",
       metaDescription: "Comfortable beds, free laundry, open kitchen, and quiet shared spaces create a clean and relaxing stay in Luodong.",
-      ogTitle: "Spaces & Facilities｜W3 Hostel Luodong",
+      ogTitle: "Space｜W3 Hostel Luodong",
       ogDescription: "Comfortable beds, laundry facilities, and shared spaces create a clean and relaxing stay.",
-      heroTitle: "Spaces & Facilities",
-      heroDesc: "From sleeping arrangements and daily convenience to shared areas and parking, W3 Luodong offers a stay space that adapts to different travel needs.",
-      p1t: "Stay Setup",
-      p1d: "Bed spaces are designed to offer comfort and a basic sense of privacy, helping you keep your own rhythm while traveling.",
-      p2t: "Daily Convenience",
-      p2d: "Free laundry machines and a sun-drying area make it easier to wash and organize clothes during your stay.",
-      p3t: "Shared Space",
-      p3d: "The open kitchen and island area include a double-burner IH cooktop, microwave, and oven for simple meal prep and reheating. The reading area stays relatively quiet and comfortable.",
-      p4t: "Space Identity",
-      p4d: "Suitable for business, relaxation, privacy, and quiet time, so you can shift the way you use the space based on how you feel.",
-      galleryTitle: "Gallery",
-      galleryDesc: "Experience the rhythm of W3 through light, space, and quiet details."
+      heroTitle: "Space",
+      heroDesc: "From sleeping arrangements and daily convenience to shared areas and parking, W3 Luodong offers a stay space that adapts to different travel needs."
     },
 
     travel: {
-      metaTitle: "Luodong Travel Guide｜Yilan Attractions & Night Market",
+      metaTitle: "Travel｜W3 Hostel Luodong",
       metaDescription: "Explore Luodong Night Market, nearby attractions, seasonal events, and Yilan nature spots for an easy and enjoyable travel plan.",
-      ogTitle: "Luodong Travel Guide｜Yilan Attractions & Night Market",
+      ogTitle: "Travel｜W3 Hostel Luodong",
       ogDescription: "From night markets to seasonal highlights and scenic escapes, plan your Yilan trip with ease.",
-      heroTitle: "Travel Info",
-      heroDesc: "From nearby attractions and seasonal highlights to nature escapes, it is easy to plan your Luodong and Yilan itinerary from W3.",
-      p1t: "Nearby Attractions",
-      p1d: "Staying at W3 makes it easy to explore Luodong’s popular spots and local daily-life areas, from daytime walks to lively night-market evenings. The free Luodong Township community shuttle bus is divided into Orange Line, Red Line, and Blue Line. The nearest stop is just a 4-minute walk from W3.",
-      p2t: "Seasonal Highlights",
-      p2d: "From cherry blossoms in spring and riverside scenery in summer to golden rice fields and festivals in autumn, each season offers a different rhythm.",
-      p3t: "Explore Yilan Nature",
-      p3d: "Forests, cold springs, geothermal landscapes, and mountain scenery make Luodong a convenient starting point for deeper nature trips.",
-
-      p4t: "Nearby Spots",
-      p4c1n: "🍡 Luodong Night Market",
-      p4c1m: "Driving Time 6 min ・ Walking Time 20 min",
-      p4c2n: "🌲 Luodong Forestry Culture Park",
-      p4c2m: "Driving Time 7 min ・ Walking Time 28 min",
-      p4c3n: "🚣 Dongshan River Water Park",
-      p4c3m: "Driving Time 9 min",
-      p4c4n: "⚽️ Luodong Sports Park",
-      p4c4m: "Driving Time 12 min",
-      p4c5n: "👹 Yilan Traditional Arts Center",
-      p4c5m: "Driving Time 12 min",
-
-      p5t: "Seasonal Carnival",
-      p5c1n: "🌸 Luozhuang Cherry Blossom Season",
-      p5c1m: "Mid-February to early March each year, Luozhuang Cherry Blossom Trail, Driving Time 2 min ・ Walking Time 10 min",
-      p5c2n: "🌾 Luodong Rice Ear Festival",
-      p5c2m: "October to November each year, nearby Luodong fields, Walking Time about 30 sec",
-      p5c3n: "🌿 Brown Boulevard",
-      p5c3m: "Great year-round, County Road 191, Driving Time about 10 min",
-      p5c4n: "🎆 Cuncyue International Hot Spring Hotel New Year Fireworks",
-      p5c4m: "Every December 31, Driving Time 3 min ・ Walking Times 11 min",
-
-      p6t: "World-Class Spots",
-      p6c1n: "🏔️Taipingshan National Forest Recreation Area",
-      p6c1m: "Driving Time 90 min",
-      p6c2n: "♨︎ Suao Cold Spring Park",
-      p6c2m: "Driving Time 21 min"
+      heroTitle: "Travel",
+      heroDesc: "From nearby attractions and seasonal highlights to nature escapes, it is easy to plan your Luodong and Yilan itinerary from W3."
     },
 
     contact: {
-      metaTitle: "Contact & Access｜W3 Hostel Luodong",
+      metaTitle: "Contact｜W3 Hostel Luodong",
       metaDescription: "Find W3 Hostel’s address, phone number, email, and directions for easy access in Luodong.",
-      ogTitle: "Contact & Access｜W3 Hostel Luodong",
+      ogTitle: "Contact｜W3 Hostel Luodong",
       ogDescription: "Quickly view address, phone, email, and navigation info for W3 Hostel.",
-      title: "Contact & Access",
-      desc: "Whether you arrive by transit or by car, W3 Hostel is easy to find. You are also welcome to contact us by phone, email, or social media.",
-      blendTitle: "W3 Hostel",
-      blendDesc: "No. 13, Luozhuang N. St., Luodong Township, Yilan County. Easy to reach by public transport or by car.",
-      cardTitle: "Contact",
-      phone: "Phone",
-      address: "Address",
-      email: "Email",
-      transport: "Public Transport",
-      drive: "Driving",
-      transportDesc: "About an 8–10 minute walk from Luodong Train Station or Luodong Bus Station.",
-      driveDesc: "Take National Freeway 5 into Yilan and follow navigation to No. 13, Luozhuang N. St., Luodong Township.",
-      map: "View Map",
-      nav: "Driving Navigation"
+      title: "Contact",
+      desc: "Whether you arrive by transit or by car, W3 Hostel is easy to find. You are also welcome to contact us by phone, email, or social media."
     },
 
     footer: { rights: "W3 Hostel © 2026" },
 
     booking: {
       title: "Quick Access",
-      agoda: "Book on Agoda",
-      booking: "Book on Booking.com",
-      contact: "Contact Us",
-      phone: "Call Now",
+      w3: "Book on W3",
       line: "LINE Chat",
       ig: "Instagram"
     }
   },
 
   ja: {
-    nav: ["ホーム", "W3", "空間と設備", "観光情報", "連絡先とアクセス"],
+    nav: ["ホーム", "W3", "空間", "旅遊", "聯絡"],
 
     home: {
       metaTitle: "羅東 宿泊｜W3 ホステル・宜蘭｜夜市・駅近の快適な宿",
@@ -358,42 +269,13 @@ const translations = {
       eyebrow: "羅東のおすすめ宿泊｜宜蘭ホステル",
       title: "羅東で、ちょうどいい滞在を見つける。",
       desc: "W3 Hostelは羅東の中心エリアにあり、夜市、駅、生活施設へのアクセスが良好です。デリバリーの便利さ、静かで清潔な空間、快適な滞在環境を兼ね備え、一人旅や短期滞在、友人との旅行にも適しています。",
-      cta1: "Agodaで予約",
-      cta2: "Booking.comで予約",
+      cta1: "W3で予約",
+      cta2: "Instagram",
       sec1k: "W3の滞在体験",
       sec1t: "W3を選ぶ理由",
       sec1d: "立地、食事の便利さ、快適な空間。W3の魅力を3つのポイントで紹介します。",
-      f1t: "中心立地・徒歩生活圏",
-      f1d: "羅東夜市、駅、バスターミナル、コンビニ、飲食店が近く、移動も食事もスムーズです。",
-      f2t: "デリバリー対応が充実",
-      f2d: "Uber Eats と foodpanda が利用でき、人気の羅東グルメや夜食も気軽に楽しめます。",
-      f3t: "清潔で静かな快適空間",
-      f3d: "明るく整った空間で、休憩、読書、仕事、気分転換まで心地よく過ごせます。",
-      sec2k: "滞在スタイル",
-      sec2t: "旅の過ごし方は、あなた次第。",
-      sec2d: "昼は羅東を自由に巡り、夜はデリバリーを楽しみ、疲れたら静かで心地よい空間に戻る。そんな自然な滞在ができます。",
-      x1t: "短期ワーク滞在",
-      x1d: "軽い仕事、旅程整理、メッセージ対応、読書にも向いています。",
-      x2t: "気軽に食事",
-      x2d: "並ばず、出かけず、部屋や共有スペースで羅東の人気グルメを楽しめます。",
-      x3t: "自然にくつろぐ",
-      x3d: "急がず、無理せず、自分らしいリズムで過ごせます。",
-      sec3k: "立地の魅力",
-      sec3t: "羅東の中心に泊まれば、すべてがもっと簡単に。",
-      sec3d: "交通、食事、日常の利便性がそろい、移動も判断もスムーズになります。",
-      l1t: "羅東バスターミナル",
-      l1d: "車で約3分｜徒歩約13分",
-      l2t: "羅東駅",
-      l2d: "車で約5分｜徒歩約18分",
-      l3t: "羅東夜市",
-      l3d: "車で約6分｜徒歩約20分以上",
-      sec4k: "今すぐ予約",
-      sec4t: "羅東での滞在を始めませんか？",
-      sec4d: "空室と料金を確認して、使いやすい予約サイトからそのまま予約できます。",
-      book1: "Agodaで空室確認",
-      book1d: "日程・空室・料金をすばやく確認。",
-      book2: "Booking.comで予約",
-      book2d: "予約ページへ進んで手続きを完了。"
+      book1: "W3で予約",
+      book1d: "空室・日程・料金を確認。"
     },
 
     about: {
@@ -402,126 +284,48 @@ const translations = {
       ogTitle: "羅東 W3｜宜蘭 宿泊・交通便利・快適な滞在",
       ogDescription: "羅東中心に位置し、交通・生活利便・デリバリー対応がそろった快適な滞在拠点です。",
       heroTitle: "羅東 W3｜街の中で、自分のリズムと空間を見つける",
-      heroDesc: "羅東の中心生活圏に位置し、交通の便利さ、生活機能、デリバリーのしやすさを兼ね備え、仕事・休息・くつろぎを自然に切り替えられる滞在拠点です。",
-      p1t: "交通の便利な羅東の宿泊施設",
-      p1d: "W3ホステルは羅東駅および羅東バスターミナルの近くに位置しており、台北から電車やバスでのアクセスも非常に便利です。羅東駅周辺の宿泊施設や、宜蘭旅行を計画している方にとって、立地とアクセスの良さは大きな魅力です。",
-      p2t: "充実した生活機能とデリバリーの利便性",
-      p2d: "周辺にはショップやレストラン、コンビニが充実しており、Uber Eatsやfoodpandaも幅広く利用可能です。外出せずに羅東のグルメを楽しむことができ、羅東夜市周辺の宿泊や、宜蘭のバックパッカー向け宿泊、短期滞在にも最適です。",
-      p3t: "宜蘭観光への拠点として",
-      p3d: "W3を拠点に、羅東夜市や羅東林業文化園区などの市内観光はもちろん、宜蘭各地の観光スポットや自然を巡る旅へと広げることができます。詳しくは「施設紹介」「観光情報」「アクセス情報」のページをご覧ください。",
-      c1t: "立地の魅力",
-      c1i1: "羅東駅：約5〜8分（車）／約15分（徒歩）",
-      c1i2: "羅東バスターミナル：約5分（車）／約12〜15分（徒歩）",
-      c1i3: "台北から鉄道・バスでアクセスしやすい",
-      c2t: "生活機能",
-      c2i1: "くら寿司、POYA、PX Martが近い",
-      c2i2: "7-Eleven と FamilyMart が多い",
-      c2i3: "朝食店、飲食店、ドリンク店が徒歩圏内",
-      c2i4: "食事・日用品・補給がしやすい",
-      c3t: "デリバリーの強み",
-      c3i1: "Uber Eats／foodpanda に対応",
-      c3i2: "羅東の人気店の料理を配達可能",
-      c3i3: "並ばず、外出せずに楽しめる",
-      c3i4: "宿の中で羅東グルメを満喫できる"
+      heroDesc: "羅東の中心生活圏に位置し、交通の便利さ、生活機能、デリバリーのしやすさを兼ね備え、仕事・休息・くつろぎを自然に切り替えられる滞在拠点です。"
     },
 
     space: {
-      metaTitle: "空間と設備｜羅東 W3 ホステル",
+      metaTitle: "空間｜羅東 W3 ホステル",
       metaDescription: "快適なベッド、無料洗濯、キッチンと読書スペースを備えた清潔で落ち着いた宿泊空間です。",
-      ogTitle: "空間と設備｜羅東 W3 ホステル",
+      ogTitle: "空間｜羅東 W3 ホステル",
       ogDescription: "快適なベッド、洗濯設備、共有キッチンと静かな空間を備えた宿泊環境です。",
-      heroTitle: "空間と設備",
-      heroDesc: "宿泊スタイルから生活の便利さ、共有空間、駐車まで、W3は滞在中のさまざまな過ごし方に対応する空間を整えています。",
-      p1t: "宿泊スタイル",
-      p1d: "ベッドスペースは、快適さと基本的なプライバシーを確保し、旅の中でも自分のリズムを保てるよう設計されています。",
-      p2t: "生活の便利さ",
-      p2d: "無料の洗濯機と日当たりの良い物干しエリアがあり、旅の途中でも衣類の洗濯と整理がしやすくなっています。",
-      p3t: "共有空間",
-      p3d: "オープンキッチンとアイランドには、IHコンロ、電子レンジ、オーブンを備え、簡単な調理や温め直しが可能です。読書エリアは比較的静かで落ち着いて過ごせます。",
-      p4t: "空間の位置づけ",
-      p4d: "仕事、リラックス、プライベート、静かな時間のどれにも対応し、その時の気分に合わせて使い方を変えられます。",
-      galleryTitle: "ギャラリー",
-      galleryDesc: "光と余白のあいだで、W3の空間の流れをご覧ください。"
+      heroTitle: "空間",
+      heroDesc: "宿泊スタイルから生活の便利さ、共有空間、駐車まで、W3は滞在中のさまざまな過ごし方に対応する空間を整えています。"
     },
 
     travel: {
-      metaTitle: "羅東 観光｜宜蘭 観光スポット・夜市",
+      metaTitle: "旅遊｜羅東 W3 ホステル",
       metaDescription: "羅東夜市や周辺観光地、季節イベント、宜蘭の自然スポットを紹介し、旅行計画をサポートします。",
-      ogTitle: "羅東 観光｜宜蘭 観光スポット・夜市",
+      ogTitle: "旅遊｜羅東 W3 ホステル",
       ogDescription: "夜市から季節イベント、自然スポットまで、W3を拠点に宜蘭の旅を組み立てやすくなります。",
-      heroTitle: "観光情報",
-      heroDesc: "周辺スポット、季節イベント、自然観光まで、羅東と宜蘭の旅をよりスムーズに計画できます。",
-      p1t: "周辺観光スポット",
-      p1d: "W3を拠点にすると、羅東の人気スポットやローカルエリアを気軽に楽しめます。羅東鎮の無料コミュニティ観光バスは、オレンジライン・レッドライン・ブルーラインの3路線に分かれています。W3から徒歩約4分で最寄りのバス停に到着します。",
-      p2t: "季節の見どころ",
-      p2d: "春の桜、夏の川辺、秋の稲穂や行事など、季節ごとに異なる魅力があります。",
-      p3t: "宜蘭の自然を巡る",
-      p3d: "森林、冷泉、地熱、山々の風景など、自然を満喫できる場所がそろっています。",
-      p4t: "近隣スポット",
-      p4c1n: "🍡 羅東夜市",
-      p4c1m: "車で 6分 ・ 徒歩で 20分",
-      p4c2n: "🌲 羅東林業文化園区",
-      p4c2m: "車で 7分 ・ 徒歩で 28分",
-      p4c3n: "🚣 冬山河親水公園",
-      p4c3m: "車で 9分",
-      p4c4n: "⚽️ 羅東運動公園",
-      p4c4m: "車で 12分",
-      p4c5n: "👹 宜蘭伝統芸術センター",
-      p4c5m: "車で 12分",
-
-      p5t: "季節イベントカーニバル",
-      p5c1n: "🌸 羅莊桜花シーズン",
-      p5c1m: "毎年2月中旬〜3月初旬、羅莊桜花トレイル、車で 2分 ・ 徒歩で 10分",
-      p5c2n: "🌾 羅東稲穂節",
-      p5c2m: "毎年10〜11月、羅東周辺の田園地帯、徒歩で 30秒",
-      p5c3n: "🌿 伯朗大道",
-      p5c3m: "通年おすすめ、191県道、車で 10分",
-      p5c4n: "🎆 村却国際温泉ホテル年越し花火",
-      p5c4m: "毎年12月31日、車で 3分 ・ 徒歩で 11分",
-
-      p6t: "世界級スポット",
-      p6c1n: "🏔️ 太平山国家森林遊楽区",
-      p6c1m: "車で 90分",
-      p6c2n: "♨︎ 蘇澳冷泉公園",
-      p6c2m: "車で 21分"
+      heroTitle: "旅遊",
+      heroDesc: "周辺スポット、季節イベント、自然観光まで、羅東と宜蘭の旅をよりスムーズに計画できます。"
     },
 
     contact: {
-      metaTitle: "連絡とアクセス｜羅東 W3 ホステル",
+      metaTitle: "聯絡｜羅東 W3 ホステル",
       metaDescription: "住所、電話番号、メール、アクセス方法を確認して、スムーズに到着できます。",
-      ogTitle: "連絡とアクセス｜羅東 W3 ホステル",
+      ogTitle: "聯絡｜羅東 W3 ホステル",
       ogDescription: "住所、電話、メール、地図案内をすぐに確認できます。",
-      title: "連絡先とアクセス",
-      desc: "電車でも車でもアクセスしやすく、電話・メール・SNSからもお気軽にお問い合わせいただけます。",
-      blendTitle: "W3 Hostel",
-      blendDesc: "宜蘭県羅東鎮羅莊北街13号。公共交通でも車でもアクセスしやすい立地です。",
-      cardTitle: "Contact",
-      phone: "電話番号",
-      address: "住所",
-      email: "メール",
-      transport: "公共交通",
-      drive: "車でのアクセス",
-      transportDesc: "羅東駅またはバスターミナルから徒歩約8〜10分です。",
-      driveDesc: "国道5号から宜蘭方面へ進み、ナビで宜蘭県羅東鎮羅莊北街13号を目的地に設定してください。",
-      map: "地図を見る",
-      nav: "カーナビ"
+      title: "聯絡",
+      desc: "電車でも車でもアクセスしやすく、電話・メール・SNSからもお気軽にお問い合わせいただけます。"
     },
 
     footer: { rights: "W3 ホステル © 2026" },
 
     booking: {
       title: "クイックサービス",
-      agoda: "Agodaで予約",
-      booking: "Booking.comで予約",
-      contact: "お問い合わせ",
-      phone: "今すぐ電話",
+      w3: "W3で予約",
       line: "LINE相談",
       ig: "Instagram"
     }
   },
 
   ko: {
-    nav: ["홈", "W3", "공간 및 시설", "여행 정보", "연락 및 오시는 길"],
+    nav: ["홈", "W3", "공간", "여행", "연락"],
 
     home: {
       metaTitle: "뤄동 숙소 추천｜W3 호스텔 이란｜야시장·역 근처",
@@ -531,164 +335,56 @@ const translations = {
       eyebrow: "뤄동 숙소 추천｜이란 호스텔",
       title: "뤄동에서 가장 잘 맞는 머무름을 찾으세요.",
       desc: "W3 호스텔은 뤄동 중심 생활권에 위치해 야시장, 기차역, 생활 편의시설과 가깝습니다. 배달이 편리하고, 공간은 조용하고 깔끔하며, 혼자 여행이나 단기 숙박, 친구와의 여행에도 잘 어울립니다.",
-      cta1: "Agoda 예약",
-      cta2: "Booking.com 예약",
+      cta1: "W3 예약",
+      cta2: "Instagram",
       sec1k: "W3 숙박 경험",
       sec1t: "왜 W3를 선택할까요?",
       sec1d: "위치, 먹거리 접근성, 편안한 공간. W3의 핵심 장점을 세 가지로 소개합니다.",
-      f1t: "중심 입지・도보 생활권",
-      f1d: "뤄동 야시장, 기차역, 버스터미널, 편의점, 식당가가 가까워 이동과 식사가 편리합니다.",
-      f2t: "배달 완전 지원",
-      f2d: "Uber Eats와 foodpanda 이용이 가능해 인기 있는 뤄동 음식과 야식도 쉽게 즐길 수 있습니다.",
-      f3t: "깔끔하고 조용한 공간",
-      f3d: "밝고 정돈된 분위기에서 휴식, 독서, 업무, 여유로운 시간을 모두 누릴 수 있습니다.",
-      sec2k: "숙박 방식",
-      sec2t: "여행의 리듬은 당신이 정합니다.",
-      sec2d: "낮에는 뤄동을 자유롭게 둘러보고, 밤에는 배달 음식을 즐기며, 쉬고 싶을 때는 조용하고 편안한 공간으로 돌아오세요.",
-      x1t: "단기 워크스테이",
-      x1d: "가벼운 업무, 일정 정리, 메시지 확인, 독서에 잘 맞습니다.",
-      x2t: "편하게 식사하기",
-      x2d: "줄 설 필요도, 밖에 나갈 필요도 없이 객실이나 공용 공간에서 뤄동 인기 음식을 즐길 수 있습니다.",
-      x3t: "자연스럽게 쉬기",
-      x3d: "서두르지 않고, 방해받지 않으며, 내 페이스대로 머물 수 있습니다.",
-      sec3k: "위치의 장점",
-      sec3t: "뤄동 중심에 머물면 모든 것이 더 간단해집니다.",
-      sec3d: "교통, 식사, 생활 편의시설이 가까워 이동과 선택이 훨씬 수월합니다.",
-      l1t: "뤄동 버스터미널",
-      l1d: "차로 약 3분｜도보 약 13분",
-      l2t: "뤄동 기차역",
-      l2d: "차로 약 5분｜도보 약 18분",
-      l3t: "뤄동 야시장",
-      l3d: "차로 약 6분｜도보 약 20분 이상",
-      sec4k: "지금 예약",
-      sec4t: "뤄동에서의 숙박을 시작할 준비가 되셨나요?",
-      sec4d: "객실 상황과 요금을 확인하고, 원하는 플랫폼에서 바로 예약하세요.",
-      book1: "Agoda 예약 가능 여부 확인",
-      book1d: "날짜, 객실 상태, 요금을 빠르게 확인하세요.",
-      book2: "Booking.com 예약",
-      book2d: "예약 페이지로 이동해 바로 예약을 완료하세요."
+      book1: "W3 예약",
+      book1d: "객실 상황, 날짜, 가격 확인."
     },
 
     about: {
       metaTitle: "뤄동 W3 호스텔｜이란 중심 숙소・교통 편리",
       metaDescription: "뤄동 중심에 위치한 W3는 교통과 생활 편의성이 뛰어나며 조용하고 편안한 숙박 환경을 제공합니다.",
       ogTitle: "뤄동 W3 호스텔｜이란 중심 숙소・교통 편리",
-      ogDescription: "교통과 생활 인프라, 배달 접근성이 잘 갖춰진 뤄동 중심 숙소입니다.",
+      ogDescription: "교통과 생활 인프라, 배달 접근성이 잘 갖춰진 뤄동 중심 숙소입니다。",
       heroTitle: "뤄동 W3｜도시 안에서 나만의 리듬과 공간 찾기",
-      heroDesc: "뤄동 핵심 생활권에 위치해 교통, 생활 편의, 배달 접근성이 모두 뛰어나며, 일과 휴식, 여유를 자연스럽게 오갈 수 있는 숙소입니다.",
-      p1t: "교통이 편리한 루오동 숙소",
-      p1d: "W3 호스텔은 루오동 기차역과 루오동 버스터미널 인근에 위치해 있어, 타이베이에서 기차나 버스로 쉽게 이동할 수 있습니다. 루오동역 근처 숙소나 이란 자유여행 숙소를 찾는 분들에게 위치와 접근성은 큰 장점입니다.",
-      p2t: "편리한 생활 인프라 및 배달 서비스",
-      p2d: "주변에는 상점, 식당, 편의점이 밀집해 있으며, Uber Eats와 foodpanda 서비스도 잘 갖춰져 있습니다. 외출하지 않아도 숙소에서 루오동의 다양한 맛집을 즐길 수 있어, 루오동 야시장 숙소, 이란 백패커 숙소 또는 단기 숙박에 매우 적합합니다.",
-      p3t: "이란 여행 확장의 출발점",
-      p3d: "W3를 거점으로 루오동 야시장, 루오동 임업문화공원 등 도심 관광은 물론, 이란의 다양한 관광지와 자연 여행 코스로 확장할 수 있습니다. 자세한 내용은 ‘시설’, ‘여행 정보’, ‘교통 안내’ 페이지를 참고하세요.",
-      c1t: "입지 장점",
-      c1i1: "뤄동 기차역: 차로 약 5–8분 / 도보 약 15분",
-      c1i2: "뤄동 버스터미널: 차로 약 5분 / 도보 약 12–15분",
-      c1i3: "타이베이에서 직행 기차 또는 버스로 접근 가능",
-      c2t: "생활 편의",
-      c2i1: "스시로, POYA, PX Mart가 근처에 있음",
-      c2i2: "7-Eleven과 FamilyMart 밀집",
-      c2i3: "아침식당, 식당, 음료 매장 도보권",
-      c2i4: "식사와 생필품, 보충이 모두 편리함",
-      c3t: "배달의 장점",
-      c3i1: "Uber Eats / foodpanda 전 지역 지원",
-      c3i2: "뤄동 인기 음식 대부분 배달 가능",
-      c3i3: "줄 설 필요도, 외출할 필요도 없음",
-      c3i4: "숙소 안에서 뤄동 먹거리를 즐길 수 있음"
+      heroDesc: "뤄동 핵심 생활권에 위치해 교통, 생활 편의, 배달 접근성이 모두 뛰어나며, 일과 휴식, 여유를 자연스럽게 오갈 수 있는 숙소입니다."
     },
 
     space: {
-      metaTitle: "공간 및 시설｜뤄동 W3 호스텔",
+      metaTitle: "공간｜뤄동 W3 호스텔",
       metaDescription: "편안한 침대, 무료 세탁, 공용 주방과 조용한 공간으로 쾌적한 숙박 환경을 제공합니다.",
-      ogTitle: "공간 및 시설｜뤄동 W3 호스텔",
+      ogTitle: "공간｜뤄동 W3 호스텔",
       ogDescription: "편안한 침대, 세탁 시설, 공용 주방과 조용한 공간이 있는 숙박 환경입니다.",
-      heroTitle: "공간 및 시설",
-      heroDesc: "숙박 형태부터 생활 편의, 공용 공간, 주차까지 W3는 다양한 여행 리듬에 맞게 활용할 수 있는 공간을 제공합니다.",
-      p1t: "숙박 형태",
-      p1d: "침대 공간은 편안함과 기본적인 프라이버시를 제공하여 여행 중에도 자신의 리듬을 유지할 수 있도록 설계되었습니다.",
-      p2t: "생활 편의",
-      p2d: "무료 세탁기와 햇빛이 잘 드는 건조 공간이 있어 여행 중에도 옷을 세탁하고 정리하기 쉽습니다.",
-      p3t: "공용 공간",
-      p3d: "오픈 키친과 아일랜드 공간에는 2구 IH 조리기, 전자레인지, 오븐이 갖춰져 있어 간단한 조리와 데우기가 가능합니다. 독서 공간은 비교적 조용해 편안하게 머물 수 있습니다.",
-      p4t: "공간의 성격",
-      p4d: "업무, 휴식, 프라이버시, 조용한 시간 모두에 어울리며, 그때그때의 상태에 따라 공간 활용 방식을 바꿀 수 있습니다.",
-      galleryTitle: "갤러리",
-      galleryDesc: "빛과 여백 사이에서 W3 공간의 흐름을 천천히 느껴보세요."
+      heroTitle: "공간",
+      heroDesc: "숙박 형태부터 생활 편의, 공용 공간, 주차까지 W3는 다양한 여행 리듬에 맞게 활용할 수 있는 공간을 제공합니다."
     },
 
     travel: {
-      metaTitle: "뤄동 여행 정보｜이란 관광・야시장",
+      metaTitle: "여행｜뤄동 W3 호스텔",
       metaDescription: "뤄동 야시장과 주변 명소, 계절 행사, 이란 자연 관광지를 정리해 여행 계획을 쉽게 도와드립니다.",
-      ogTitle: "뤄동 여행 정보｜이란 관광・야시장",
+      ogTitle: "여행｜뤄동 W3 호스텔",
       ogDescription: "야시장부터 계절 행사와 자연 여행까지, W3를 거점으로 더 쉽게 여행을 계획할 수 있습니다.",
-      heroTitle: "여행 정보",
-      heroDesc: "주변 명소, 계절 행사, 자연 여행까지 뤄동과 이란 여행을 더 쉽게 계획할 수 있습니다.",
-      p1t: "주변 관광지",
-      p1d: "W3에 머물며 뤄동의 인기 명소와 지역 분위기를 편하게 즐길 수 있습니다. 루오동 진 무료 커뮤니티 관광 셔틀버스는 오렌지 라인, 레드 라인, 블루 라인으로 나뉘어 있습니다. W3에서 도보 약 4분 거리에 정류장이 있습니다.",
-      p2t: "계절 하이라이트",
-      p2d: "봄의 벚꽃, 여름의 강변, 가을의 논 풍경과 지역 행사까지 계절마다 다른 매력을 경험할 수 있습니다.",
-      p3t: "이란 자연 탐방",
-      p3d: "숲, 냉천, 지열, 산악 풍경 등 자연 여행에 잘 어울리는 풍경이 펼쳐집니다.",
-
-      p4t: "가까운 명소",
-      p4c1n: "🍡 뤄동 야시장",
-      p4c1m: "운전 중 6분 ・ 걷는 동안 20분",
-      p4c2n: "🌲 뤄동 임업문화원구",
-      p4c2m: "운전 중 7분 ・ 걷는 동안 28분",
-      p4c3n: "🚣 둥산허 친수공원",
-      p4c3m: "운전 중 9분",
-      p4c4n: "⚽️ 뤄동 운동공원",
-      p4c4m: "운전 중 12분",
-      p4c5n: "👹 이란 전통예술센터",
-      p4c5m: "운전 중 12분",
-
-      p5t: "계절 행사 카니발",
-      p5c1n: "🌸 뤄좡 벚꽃 시즌",
-      p5c1m: "매년 2월 중순~3월 초, 뤄좡 벚꽃 산책길, 운전 중 2분 ・ 걷는 동안 10분",
-      p5c2n: "🌾 뤄동 벼이삭 축제",
-      p5c2m: "매년 10~11월, 뤄동 주변 논밭, 걷는 동안 약 30초",
-      p5c3n: "🌿 브라운 대로",
-      p5c3m: "연중 방문 가능, 191번 현도, 운전 중 약 10분",
-      p5c4n: "🎆 춘췌 국제온천호텔 연말 불꽃놀이",
-      p5c4m: "매년 12월 31일, 운전 중 3분 ・ 걷는 동안 11분",
-
-      p6t: "세계급 명소",
-      p6c1n: "🏔️ 타이핑산 국가삼림유락구",
-      p6c1m: "운전 중 90분",
-      p6c2n: "쑤아오 냉천공원",
-      p6c2m: "♨︎ 운전 중 21분"
+      heroTitle: "여행",
+      heroDesc: "주변 명소, 계절 행사, 자연 여행까지 뤄동과 이란 여행을 더 쉽게 계획할 수 있습니다."
     },
 
     contact: {
-      metaTitle: "연락 및 위치｜뤄동 W3 호스텔",
+      metaTitle: "연락｜뤄동 W3 호스텔",
       metaDescription: "주소, 전화번호, 이메일, 교통 정보를 확인하고 쉽게 찾아오세요.",
-      ogTitle: "연락 및 위치｜뤄동 W3 호스텔",
+      ogTitle: "연락｜뤄동 W3 호스텔",
       ogDescription: "주소, 전화, 이메일, 지도 안내를 빠르게 확인하세요.",
-      title: "연락 및 오시는 길",
-      desc: "대중교통이나 자가용 모두 편리하며, 전화, 이메일, SNS로도 쉽게 문의하실 수 있습니다.",
-      blendTitle: "W3 Hostel",
-      blendDesc: "이란현 뤄동진 뤄좡북가 13호. 대중교통과 자가용 모두 편리하게 접근할 수 있습니다.",
-      cardTitle: "Contact",
-      phone: "전화",
-      address: "주소",
-      email: "이메일",
-      transport: "대중교통",
-      drive: "자가용",
-      transportDesc: "뤄동 기차역 또는 버스터미널에서 도보 약 8–10분 거리입니다.",
-      driveDesc: "국도 5호선을 통해 이란으로 진입한 뒤, 내비게이션에 이란현 뤄동진 뤄좡북가 13호를 입력하세요.",
-      map: "지도 보기",
-      nav: "길찾기"
+      title: "연락",
+      desc: "대중교통이나 자가용 모두 편리하며, 전화, 이메일, SNS로도 쉽게 문의하실 수 있습니다."
     },
 
     footer: { rights: "W3 호스텔 © 2026" },
 
     booking: {
       title: "빠른 서비스",
-      agoda: "Agoda 예약",
-      booking: "Booking.com 예약",
-      contact: "문의하기",
-      phone: "전화하기",
+      w3: "W3 예약",
       line: "LINE 상담",
       ig: "Instagram"
     }
@@ -742,8 +438,7 @@ function applyMetaByPage(t) {
   const ogDesc = document.querySelector('meta[property="og:description"]');
   if (ogDesc && page.ogDescription) ogDesc.setAttribute("content", page.ogDescription);
 
-  const html = document.documentElement;
-  html.lang = pageKey === "home" ? (html.lang || "zh-Hant") : html.lang;
+  document.documentElement.lang = document.documentElement.lang || "zh-Hant";
 }
 
 function setLang(lang) {
@@ -772,21 +467,13 @@ function injectFloatingBooking() {
       <span class="fa-icon">✦</span>
       <span class="fa-label">
         <span data-i18n="booking.title">快捷服務</span>
-        <small>BOOK · CALL · LINE · IG</small>
+        <small>BOOK · LINE · IG</small>
       </span>
     </button>
     <div class="fa-panel" id="quick-panel">
-      <a class="action-link book" href="https://www.agoda.com/backpacker-s-hostel-luodong/hotel/yilan-tw.html" target="_blank" rel="noopener">
-        <span data-i18n="booking.agoda">Agoda 訂房</span>
+      <a class="action-link book" href="https://www.booking-owlnest.com/w3hostel" target="_blank" rel="noopener">
+        <span data-i18n="booking.w3">W3 訂房</span>
         <span class="meta">Open</span>
-      </a>
-      <a class="action-link book" href="https://www.booking.com/hotel/tw/w3-hostel.zh-tw.html" target="_blank" rel="noopener">
-        <span data-i18n="booking.booking">Booking.com 訂房</span>
-        <span class="meta">Open</span>
-      </a>
-      <a class="action-link phone" href="tel:+886937096423">
-        <span data-i18n="booking.phone">立即撥打</span>
-        <span class="meta">+886 937 096 423</span>
       </a>
       <a class="action-link line" href="https://line.me/R/ti/p/@749azqqe" target="_blank" rel="noopener">
         <span data-i18n="booking.line">LINE 諮詢</span>
@@ -801,7 +488,11 @@ function injectFloatingBooking() {
 
   document.body.appendChild(widget);
 
-  const lang = new URLSearchParams(window.location.search).get("lang") || localStorage.getItem("w3-lang") || "zh-Hant";
+  const lang =
+    new URLSearchParams(window.location.search).get("lang") ||
+    localStorage.getItem("w3-lang") ||
+    "zh-Hant";
+
   const t = translations[lang] || translations["zh-Hant"];
   setTextTranslations(t);
 
@@ -825,7 +516,10 @@ function injectFloatingBooking() {
       const y = window.scrollY || 0;
       const nearTop = y < 80;
       const scrollingDown = y > lastY && y > 180;
-      widget.classList.toggle("is-hidden", scrollingDown && !widget.classList.contains("open") && !nearTop);
+      widget.classList.toggle(
+        "is-hidden",
+        scrollingDown && !widget.classList.contains("open") && !nearTop
+      );
       lastY = y;
     },
     { passive: true }
