@@ -152,7 +152,9 @@ const translations = {
       transportDesc: "自羅東車站或轉運站步行約 8–10 分鐘即可抵達。",
       driveDesc: "可經國道 5 號銜接宜蘭地區道路，依導航前往宜蘭縣羅東鎮羅莊北街 13 號。",
       map: "地圖瀏覽",
-      nav: "開車導航"
+      nav: "開車導航",
+      revealEmail: "點擊顯示 Email",
+      revealPhone: "點擊顯示電話",
     },
 
     footer: { rights: "W3 青旅 © 2026" },
@@ -246,6 +248,8 @@ const translations = {
       ogDescription: "Quickly view address, phone, email, and navigation info for W3 Hostel.",
       title: "Contact",
       desc: "Whether you arrive by transit or by car, W3 Hostel is easy to find. You are also welcome to contact us by phone, email, or social media."
+      revealEmail: "Click to show email",
+      revealPhone: "Click to show phone number",
     },
 
     footer: { rights: "W3 Hostel © 2026" },
@@ -312,6 +316,8 @@ const translations = {
       ogDescription: "住所、電話、メール、地図案内をすぐに確認できます。",
       title: "聯絡",
       desc: "電車でも車でもアクセスしやすく、電話・メール・SNSからもお気軽にお問い合わせいただけます。"
+      revealEmail: "クリックして Email を表示",
+      revealPhone: "クリックして電話番号を表示",
     },
 
     footer: { rights: "W3 ホステル © 2026" },
@@ -378,6 +384,8 @@ const translations = {
       ogDescription: "주소, 전화, 이메일, 지도 안내를 빠르게 확인하세요.",
       title: "연락",
       desc: "대중교통이나 자가용 모두 편리하며, 전화, 이메일, SNS로도 쉽게 문의하실 수 있습니다."
+      revealEmail: "클릭하여 이메일 표시",
+      revealPhone: "클릭하여 전화번호 표시",
     },
 
     footer: { rights: "W3 호스텔 © 2026" },
@@ -455,6 +463,35 @@ function setLang(lang) {
   setTextTranslations(t);
   setButtonState(finalLang);
   applyMetaByPage(t);
+}
+
+function revealEmail(button) {
+  const user = button.dataset.user;
+  const domain = button.dataset.domain;
+  if (!user || !domain) return;
+
+  const email = `${user}@${domain}`;
+  const link = document.createElement("a");
+  link.href = `mailto:${email}`;
+  link.textContent = email;
+
+  button.replaceWith(link);
+}
+
+function revealPhone(button) {
+  const p1 = button.dataset.part1;
+  const p2 = button.dataset.part2;
+  const p3 = button.dataset.part3;
+  if (!p1 || !p2 || !p3) return;
+
+  const phone = `${p1}-${p2}-${p3}`;
+  const tel = `${p1}${p2}${p3}`;
+
+  const link = document.createElement("a");
+  link.href = `tel:${tel}`;
+  link.textContent = phone;
+
+  button.replaceWith(link);
 }
 
 function injectFloatingBooking() {

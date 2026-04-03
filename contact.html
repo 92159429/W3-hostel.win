@@ -31,7 +31,6 @@
       "addressCountry": "TW"
     },
     "telephone": "+886937096423",
-    "email": "chinghuilin48@gmail.com",
     "url": "https://w3-hostel.win/contact.html"
   }
   </script>
@@ -82,16 +81,31 @@
           <h3 data-i18n="contact.cardTitle">聯絡方式</h3>
           <ul class="contact-list">
             <li>
-              <strong data-i18n="contact.phone">聯絡電話</strong><br />
-              <a href="tel:+886937096423">+886 937 096 423</a>
+             <strong data-i18n="contact.phone">聯絡電話</strong><br />
+             <button
+              type="button"
+              class="btn btn-secondary reveal-phone-btn"
+              data-i18n="contact.revealPhone"
+              style="padding:0.55rem 0.9rem; font-size:0.95rem;"
+              data-part1="0937"
+              data-part2="096"
+              data-part3="423"
+              onclick="revealPhone(this)">點擊顯示電話</button>
             </li>
             <li>
               <strong data-i18n="contact.address">地址</strong><br />
               宜蘭縣羅東鎮羅莊北街13號
             </li>
             <li>
-              <strong data-i18n="contact.email">電子郵件</strong><br />
-              <a href="mailto:gsgeaaiim@gmail.com">gsgeaaiim@gmail.com</a>
+             <strong data-i18n="contact.email">電子郵件</strong><br />
+             <button
+              type="button"
+              class="btn btn-secondary reveal-email-btn"
+              data-i18n="contact.revealEmail"
+              style="padding:0.55rem 0.9rem; font-size:0.95rem;"
+              data-user="gsgeaaiim"
+              data-domain="gmail.com"
+              onclick="revealEmail(this)">點擊顯示 Email</button>
             </li>
             <li>
               <strong data-i18n="contact.transport">大眾運輸方式</strong><br />
