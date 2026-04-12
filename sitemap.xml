@@ -7,6 +7,8 @@
     <loc>https://w3-hostel.win/</loc>
     <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://w3-hostel.win/" />
     <xhtml:link rel="alternate" hreflang="en" href="https://w3-hostel.win/?lang=en" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://w3-hostel.win/?lang=es" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://w3-hostel.win/?lang=de" />
     <xhtml:link rel="alternate" hreflang="ja" href="https://w3-hostel.win/?lang=ja" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://w3-hostel.win/?lang=ko" />
   </url>
@@ -16,6 +18,8 @@
     <loc>https://w3-hostel.win/w3.html</loc>
     <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://w3-hostel.win/w3.html" />
     <xhtml:link rel="alternate" hreflang="en" href="https://w3-hostel.win/w3.html?lang=en" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://w3-hostel.win/w3.html?lang=es" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://w3-hostel.win/w3.html?lang=de" />
     <xhtml:link rel="alternate" hreflang="ja" href="https://w3-hostel.win/w3.html?lang=ja" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://w3-hostel.win/w3.html?lang=ko" />
   </url>
@@ -25,6 +29,8 @@
     <loc>https://w3-hostel.win/space.html</loc>
     <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://w3-hostel.win/space.html" />
     <xhtml:link rel="alternate" hreflang="en" href="https://w3-hostel.win/space.html?lang=en" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://w3-hostel.win/space.html?lang=es" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://w3-hostel.win/space.html?lang=de" />
     <xhtml:link rel="alternate" hreflang="ja" href="https://w3-hostel.win/space.html?lang=ja" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://w3-hostel.win/space.html?lang=ko" />
   </url>
@@ -34,6 +40,8 @@
     <loc>https://w3-hostel.win/travel.html</loc>
     <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://w3-hostel.win/travel.html" />
     <xhtml:link rel="alternate" hreflang="en" href="https://w3-hostel.win/travel.html?lang=en" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://w3-hostel.win/travel.html?lang=es" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://w3-hostel.win/travel.html?lang=de" />
     <xhtml:link rel="alternate" hreflang="ja" href="https://w3-hostel.win/travel.html?lang=ja" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://w3-hostel.win/travel.html?lang=ko" />
   </url>
@@ -43,6 +51,8 @@
     <loc>https://w3-hostel.win/contact.html</loc>
     <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://w3-hostel.win/contact.html" />
     <xhtml:link rel="alternate" hreflang="en" href="https://w3-hostel.win/contact.html?lang=en" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://w3-hostel.win/contact.html?lang=es" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://w3-hostel.win/contact.html?lang=de" />
     <xhtml:link rel="alternate" hreflang="ja" href="https://w3-hostel.win/contact.html?lang=ja" />
     <xhtml:link rel="alternate" hreflang="ko" href="https://w3-hostel.win/contact.html?lang=ko" />
   </url>
