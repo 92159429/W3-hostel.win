@@ -23,3 +23,8 @@
 
 
 
+
+
+## SEO 改寫版
+
+已更新 index.html、w3.html、space.html、travel.html、contact.html 的 title、description、keywords、Open Graph、JSON-LD 與主要中文內文，以自然方式納入羅東青旅、青年旅館、青年旅舍、背包客棧、膠囊旅館、團體、包棟、女生房、性別友善、免費停車、自行車、廚房、露天觀景、公司旅遊、社團活動、團康與家族聚會等搜尋意圖。
