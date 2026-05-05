@@ -1212,6 +1212,279 @@ const translations = {
   }
 };
 
+const houserulesTranslations = {
+  "zh-Hant": {
+    "generalTitle": "W3 入住須知",
+    "femaleTitle": "W3 入住須知 - 女孩兒專屬",
+    "generalMetaTitle": "W3 入住須知｜W3 青旅",
+    "femaleMetaTitle": "W3 入住須知 - 女孩兒專屬｜W3 青旅",
+    "metaDescription": "W3 青旅入住須知、自助入住、付款、門禁、退房、公共空間、Wi-Fi、交通租賃與停車資訊。",
+    "metaKeywords": "W3 入住須知, W3 青旅, 羅東青旅入住, 羅東住宿規則",
+    "heroKicker": "入住前請詳閱",
+    "heroDescG": "親愛的旅客您好，以下為 W3 入住須知，請務必詳閱。",
+    "heroDescF": "親愛的旅客您好，以下為 W3 女孩兒專屬入住須知，請務必詳閱。",
+    "doorTitle": "2 樓女孩兒專屬房門開啟方式",
+    "doorText": "請以手掌輕拍門把上方黑色面板，待按鍵亮起後輸入 0️⃣6️⃣0️⃣6️⃣＊️⃣ 即可開門。若門未開啟，請先稍微推門後再重新操作一次。",
+    "important": "重要提醒",
+    "sectionTitle": "入住須知",
+    "thanks": "感謝您的配合，祝您入住愉快！",
+    "bank": "銀行：中國信託（822）",
+    "account": "帳號：164540272344",
+    "wifiTitle": "免費 Wi-Fi",
+    "wifiName": "SSID：W3 Hostel 青旅",
+    "wifiPass": "密碼：13131313",
+    "transportTitle": "交通工具租賃建議",
+    "bike": "自行車：金城租車公司（宜蘭縣羅東鎮站前北路1號／03-9565678）",
+    "scooter": "機車：達伯聯合租車羅東店（宜蘭縣羅東鎮公正路30號／03-9550513）",
+    "parkingIntro": "W3 側邊空間可停放自行車、機車及大型重機，請將車頭朝牆面整齊停放。",
+    "parkingTitle": "汽車免費停車資訊：",
+    "rules": [
+      "本青旅採自助門禁管理。若入住當天尚未收到入住通知，請於抵達 W3 大門時致電 0937-096-423，將由 W3 老闆線上協助您辦理入住；入住期間若有非急迫諮詢，亦可透過 Line：@749azqqe 留言聯繫。",
+      "聯繫 W3 辦理入住前，請先備妥「訂單號碼」或「預訂代碼」。請於入住前三日完成至少 30% 房費付款。若訂房平台尚未扣款，請先向原平台確認款項並索取訂單編號；平台註冊時提供的信用卡僅供身分驗證，並非付款證明。您亦可透過 ATM 或網路銀行即時轉帳，並於完成後回傳「轉出帳號後五碼」以利查帳。",
+      "如需提前或延後寄放行李，請放置於進門左側儲藏室門邊；進入大門後，請於右側鞋櫃放置戶外鞋並更換室內拖鞋。",
+      "二樓與三樓宿舍區全面禁止飲食。",
+      "W3 提供飲水機、吹風機、共享廚房、餐廳、冰箱、免費洗衣機（含洗衣劑）、視聽室、交誼廳、觀景／觀星樓層及全棟無線網路；請自備個人盥洗及衛生用品。",
+      "每個床位均附置物櫃，鑰匙號碼與床號相同，並附感應扣可用於大門電子鎖。",
+      "入住時間為 16:00–22:00。為保障全體住客權益，恕不受理逾時入住，亦無法取消或退費。退房時間為翌日 12:00；續住無須更換床位，如需更換床單，請於當日 12:00 前完成退房，並於 16:00 後重新辦理入住。請妥善保管置物櫃鑰匙與感應扣，退房時請將鑰匙歸還至置物櫃；若遺失，補發費用為 NT$350。",
+      "床位採現場先到先選，恕不提供預先選位或保留。如有特殊或必要需求，請提前與 W3 聯繫。",
+      "為維護個人衛生及公共秩序，請勿使用他人床位備品（如枕頭、棉被、衣架），亦請避免長時間佔用公共物品（如風扇、垃圾桶等）；違者將依情況酌收費用。",
+      "全棟室內空間（含浴廁及頂樓觀景層）全面禁止吸菸及使用娛樂性藥品。違者將通報主管機關裁罰或報警處理，並依法追究相關責任與損失。"
+    ]
+  },
+  "en": {
+    "generalTitle": "W3 House Rules",
+    "femaleTitle": "W3 House Rules - Female Only",
+    "generalMetaTitle": "W3 House Rules｜W3 Hostel",
+    "femaleMetaTitle": "W3 House Rules - Female Only｜W3 Hostel",
+    "metaDescription": "W3 Hostel house rules including self check-in, payment, access, check-out, shared spaces, Wi-Fi, rentals and parking.",
+    "metaKeywords": "W3 House Rules, W3 Hostel, Luodong hostel check-in, Luodong accommodation rules",
+    "heroKicker": "Please read before arrival",
+    "heroDescG": "Dear guest, please read the following W3 house rules carefully.",
+    "heroDescF": "Dear guest, please read the following W3 female-only house rules carefully.",
+    "doorTitle": "How to open the 2F female-only room door",
+    "doorText": "Gently tap the black panel above the handle with your palm. When the keypad lights up, enter 0️⃣6️⃣0️⃣6️⃣＊️⃣ to unlock the door. If the door does not respond, push it firmly once and try unlocking again.",
+    "important": "Important note",
+    "sectionTitle": "House Rules",
+    "thanks": "Thank you for your cooperation. We wish you a pleasant stay!",
+    "bank": "Bank: CTBC Bank (822)",
+    "account": "Account: 164540272344",
+    "wifiTitle": "Free Wi-Fi",
+    "wifiName": "SSID: W3 Hostel 青旅",
+    "wifiPass": "Password: 13131313",
+    "transportTitle": "Recommended rentals",
+    "bike": "Bicycle: Jincheng Rental (No. 1, Zhanqian N. Rd., Luodong Township, Yilan County / 03-9565678)",
+    "scooter": "Scooter: Dabo United Rental Luodong (No. 30, Gongzheng Rd., Luodong Township, Yilan County / 03-9550513)",
+    "parkingIntro": "Bicycles, scooters and large motorcycles may be parked along the side of W3. Please park neatly with the front of the vehicle facing the wall.",
+    "parkingTitle": "Free car parking information:",
+    "rules": [
+      "W3 Hostel uses self-service access control. If you have not received your check-in instructions on the day of arrival, please call 0937-096-423 when you arrive at the W3 entrance. The owner will assist you online. For non-urgent questions during your stay, you may also leave a message on Line: @749azqqe.",
+      "Before contacting W3 for check-in, please have your order number or reservation code ready. At least 30% of the room charge must be paid three days before arrival. If the booking platform has not charged you, please confirm the payment status with the original platform and request your order number. The credit card used when registering on the platform is for identity verification only and is not proof of payment. You may also transfer payment by ATM or online banking, then send us the last five digits of the outgoing account for verification.",
+      "If you need to store luggage before check-in or after check-out, please place it by the storage room door on the left after entering. After entering the main door, please place your outdoor shoes in the shoe cabinet on the right and change into indoor slippers.",
+      "Food and drinks are strictly prohibited in the dormitory areas on the second and third floors.",
+      "W3 provides a water dispenser, hair dryers, shared kitchen, dining area, refrigerator, free washing machine with detergent, media room, lounge, viewing/stargazing floor, and Wi-Fi throughout the building. Please bring your own personal toiletries and hygiene items.",
+      "Each bed comes with a locker. The key number matches the bed number, and the attached access fob can be used for the main electronic door lock.",
+      "Check-in is from 16:00 to 22:00. To protect the rights of all guests, late check-in cannot be accepted, and bookings cannot be cancelled or refunded after the check-in window. Check-out is by 12:00 the next day. Guests extending their stay do not need to change beds. If you need fresh sheets, please check out by 12:00 and check in again after 16:00. Please keep your locker key and access fob safe. Return the key to the locker at check-out. A replacement fee of NT$350 applies if lost.",
+      "Beds are selected on a first-come, first-served basis upon arrival. Advance bed selection or reservation is not available. If you have a special or essential need, please contact W3 in advance.",
+      "To maintain hygiene and shared order, please do not use items from another bed, such as pillows, blankets or hangers. Please also avoid occupying shared items such as fans or trash bins for long periods. Additional fees may be charged depending on the situation.",
+      "Smoking and recreational drug use are strictly prohibited in all indoor areas, bathrooms, and shared areas including the rooftop viewing floor. Violations will be reported to the authorities or police, and W3 will pursue compensation for related losses according to law."
+    ]
+  },
+  "ja": {
+    "generalTitle": "W3 宿泊案内",
+    "femaleTitle": "W3 宿泊案内 - 女性専用",
+    "generalMetaTitle": "W3 宿泊案内｜W3 Hostel",
+    "femaleMetaTitle": "W3 宿泊案内 - 女性専用｜W3 Hostel",
+    "metaDescription": "W3 Hostel のセルフチェックイン、支払い、入退館、チェックアウト、共用スペース、Wi-Fi、レンタル、駐車場に関する宿泊案内。",
+    "metaKeywords": "W3 宿泊案内, W3 Hostel, 羅東 ホステル チェックイン, 羅東 宿泊ルール",
+    "heroKicker": "ご到着前にご確認ください",
+    "heroDescG": "お客様へ。以下の W3 宿泊案内を必ずご確認ください。",
+    "heroDescF": "お客様へ。以下の W3 女性専用宿泊案内を必ずご確認ください。",
+    "doorTitle": "2階女性専用ルームのドア開錠方法",
+    "doorText": "ドアハンドル上部の黒いパネルを手のひらで軽くタップし、キーが表示されたら 0️⃣6️⃣0️⃣6️⃣＊️⃣ を入力すると開錠できます。反応しない場合は、ドアを一度しっかり押してから再度お試しください。",
+    "important": "重要なお知らせ",
+    "sectionTitle": "宿泊案内",
+    "thanks": "ご協力ありがとうございます。快適なご滞在をお楽しみください。",
+    "bank": "銀行：中国信託（822）",
+    "account": "口座番号：164540272344",
+    "wifiTitle": "無料 Wi-Fi",
+    "wifiName": "SSID：W3 Hostel 青旅",
+    "wifiPass": "パスワード：13131313",
+    "transportTitle": "レンタル交通手段のおすすめ",
+    "bike": "自転車：金城租車公司（宜蘭県羅東鎮站前北路1号／03-9565678）",
+    "scooter": "スクーター：達伯聯合租車 羅東店（宜蘭県羅東鎮公正路30号／03-9550513）",
+    "parkingIntro": "W3 側面スペースには自転車、スクーター、大型バイクを駐車できます。車体の前方を壁側に向けて整然と駐車してください。",
+    "parkingTitle": "無料駐車場情報：",
+    "rules": [
+      "W3 Hostel はセルフ入館管理を採用しています。チェックイン当日に案内が届いていない場合は、W3 入口に到着後 0937-096-423 までお電話ください。オーナーがオンラインでチェックインをサポートします。滞在中の緊急でないお問い合わせは Line：@749azqqe へメッセージをお送りください。",
+      "W3 にチェックインの連絡をする前に、「注文番号」または「予約コード」をご用意ください。到着3日前までに宿泊料金の少なくとも30％をお支払いください。予約サイトでまだ決済されていない場合は、元の予約サイトに支払い状況を確認し、注文番号を取得してください。サイト登録時のクレジットカードは本人確認用であり、支払い証明ではありません。ATM またはオンラインバンキングで即時振込を行い、完了後に出金口座の下5桁をお知らせいただくことも可能です。",
+      "チェックイン前またはチェックアウト後に荷物を預ける場合は、入口を入って左側の倉庫ドア付近に置いてください。建物に入った後は、右側の靴箱に外履きを置き、室内スリッパに履き替えてください。",
+      "2階および3階のドミトリーエリアでは飲食を全面的に禁止しています。",
+      "W3 にはウォーターサーバー、ドライヤー、共用キッチン、ダイニング、冷蔵庫、無料洗濯機（洗剤付き）、シアタールーム、ラウンジ、展望／星空観賞フロア、全館 Wi-Fi があります。個人用の洗面・衛生用品はご持参ください。",
+      "各ベッドにはロッカーが付いています。鍵番号はベッド番号と同じで、付属のタグは入口の電子ロックに使用できます。",
+      "チェックイン時間は 16:00〜22:00 です。全てのお客様の権利を守るため、時間外チェックインはお受けできず、キャンセルや返金もできません。チェックアウトは翌日 12:00 です。連泊の場合はベッド変更不要です。シーツ交換が必要な場合は当日 12:00 までに一度チェックアウトし、16:00 以降に再度チェックインしてください。ロッカー鍵とタグは大切に保管し、チェックアウト時に鍵をロッカーへ戻してください。紛失時は再発行費用 NT$350 を申し受けます。",
+      "ベッドは到着順にお選びいただきます。事前選択や取り置きはできません。特別または必要なご要望がある場合は、事前に W3 までご連絡ください。",
+      "衛生と共用秩序を保つため、枕、布団、ハンガーなど他のベッドの備品を使用しないでください。また扇風機やゴミ箱などの共用品を長時間占有しないでください。状況により追加料金をいただく場合があります。",
+      "館内の室内スペース、浴室・トイレ、屋上展望フロアを含む共用エリアでは、喫煙および娯楽目的の薬物使用を全面的に禁止しています。違反した場合は主管機関または警察へ通報し、W3 は関連損害について法に基づき請求します。"
+    ]
+  },
+  "ko": {
+    "generalTitle": "W3 이용 안내",
+    "femaleTitle": "W3 이용 안내 - 여성 전용",
+    "generalMetaTitle": "W3 이용 안내｜W3 Hostel",
+    "femaleMetaTitle": "W3 이용 안내 - 여성 전용｜W3 Hostel",
+    "metaDescription": "W3 Hostel 셀프 체크인, 결제, 출입, 체크아웃, 공용 공간, Wi-Fi, 대여 및 주차 안내.",
+    "metaKeywords": "W3 이용 안내, W3 Hostel, 뤄둥 호스텔 체크인, 뤄둥 숙소 규칙",
+    "heroKicker": "도착 전 꼭 확인해 주세요",
+    "heroDescG": "고객님, 아래 W3 이용 안내를 반드시 확인해 주세요.",
+    "heroDescF": "고객님, 아래 W3 여성 전용 이용 안내를 반드시 확인해 주세요.",
+    "doorTitle": "2층 여성 전용 객실 문 여는 방법",
+    "doorText": "손잡이 위 검은색 패널을 손바닥으로 가볍게 터치한 뒤 버튼이 나타나면 0️⃣6️⃣0️⃣6️⃣＊️⃣ 을 입력하면 문이 열립니다. 문이 반응하지 않으면 문을 한 번 힘 있게 밀고 다시 잠금 해제를 시도해 주세요.",
+    "important": "중요 안내",
+    "sectionTitle": "이용 안내",
+    "thanks": "협조해 주셔서 감사합니다. 즐거운 숙박 되시기 바랍니다!",
+    "bank": "은행: CTBC Bank 중국신탁 (822)",
+    "account": "계좌번호: 164540272344",
+    "wifiTitle": "무료 Wi-Fi",
+    "wifiName": "SSID: W3 Hostel 青旅",
+    "wifiPass": "비밀번호: 13131313",
+    "transportTitle": "교통수단 대여 추천",
+    "bike": "자전거: 진청 렌탈 (이란현 뤄둥진 잔첸북로 1호 / 03-9565678)",
+    "scooter": "스쿠터: 다보 유나이티드 렌탈 뤄둥점 (이란현 뤄둥진 공정로 30호 / 03-9550513)",
+    "parkingIntro": "W3 측면 공간에는 자전거, 스쿠터 및 대형 오토바이를 주차할 수 있습니다. 차량 앞부분이 벽을 향하도록 가지런히 주차해 주세요.",
+    "parkingTitle": "무료 자동차 주차 정보:",
+    "rules": [
+      "W3 Hostel은 셀프 출입 관리 방식으로 운영됩니다. 체크인 당일에도 안내를 받지 못하셨다면 W3 정문에 도착하신 후 0937-096-423으로 전화해 주세요. 사장님이 온라인으로 체크인을 도와드립니다. 숙박 중 긴급하지 않은 문의는 Line: @749azqqe 로 메시지를 남겨 주세요.",
+      "W3에 체크인 문의를 하기 전에 주문 번호 또는 예약 코드를 준비해 주세요. 체크인 3일 전까지 객실 요금의 최소 30%를 결제해야 합니다. 예약 플랫폼에서 아직 결제가 되지 않았다면 원래 이용하신 플랫폼에 결제 상태를 확인하고 주문 번호를 요청해 주세요. 플랫폼 가입 시 등록한 신용카드는 본인 확인용이며 결제 증빙이 아닙니다. ATM 또는 인터넷뱅킹으로 즉시 이체하신 뒤, 확인을 위해 출금 계좌 뒤 5자리를 보내 주셔도 됩니다.",
+      "체크인 전이나 체크아웃 후 짐 보관이 필요한 경우, 입구로 들어온 뒤 왼쪽 창고 문 옆에 놓아 주세요. 건물에 들어오면 오른쪽 신발장에 외부 신발을 두고 실내 슬리퍼로 갈아 신어 주세요.",
+      "2층과 3층 도미토리 구역에서는 음식물 섭취가 전면 금지됩니다.",
+      "W3에는 정수기, 헤어드라이어, 공용 주방, 식당, 냉장고, 무료 세탁기(세제 포함), 미디어룸, 라운지, 전망/별 관찰층, 전관 Wi-Fi가 제공됩니다. 개인 세면도구와 위생용품은 직접 준비해 주세요.",
+      "각 침대에는 개인 사물함이 제공됩니다. 열쇠 번호는 침대 번호와 같으며, 함께 제공되는 출입 태그는 정문 전자잠금장치에 사용할 수 있습니다.",
+      "체크인 시간은 16:00–22:00입니다. 모든 투숙객의 권리를 보호하기 위해 시간 외 체크인은 불가하며, 예약 취소 또는 환불도 불가합니다. 체크아웃 시간은 다음 날 12:00입니다. 연박 시 침대 변경은 필요하지 않습니다. 침대 시트 교체가 필요한 경우 당일 12:00 전 체크아웃 후 16:00 이후 다시 체크인해 주세요. 사물함 열쇠와 출입 태그를 잘 보관해 주시고, 체크아웃 시 열쇠를 사물함에 반납해 주세요. 분실 시 재발급 비용 NT$350이 부과됩니다.",
+      "침대는 현장 도착 순서대로 선택합니다. 사전 선택이나 예약 보관은 제공하지 않습니다. 특별하거나 필수적인 요청이 있는 경우 사전에 W3에 문의해 주세요.",
+      "개인 위생과 공용 질서를 위해 베개, 이불, 옷걸이 등 다른 침대의 비품을 사용하지 마세요. 선풍기, 쓰레기통 등 공용 물품을 장시간 독점하는 것도 삼가 주세요. 상황에 따라 추가 요금이 부과될 수 있습니다.",
+      "전관 실내 공간, 욕실과 화장실, 옥상 전망층을 포함한 공용 공간에서는 흡연 및 오락용 약물 사용이 전면 금지됩니다. 위반 시 관계 기관 또는 경찰에 신고되며, W3는 관련 손실에 대해 법에 따라 배상을 청구합니다."
+    ]
+  },
+  "fr": {
+    "generalTitle": "Règlement de séjour W3",
+    "femaleTitle": "Règlement W3 - Chambre réservée aux femmes",
+    "generalMetaTitle": "Règlement de séjour W3｜W3 Hostel",
+    "femaleMetaTitle": "Règlement W3 - Femmes uniquement｜W3 Hostel",
+    "metaDescription": "Règlement du W3 Hostel : arrivée autonome, paiement, accès, départ, espaces communs, Wi-Fi, locations et stationnement.",
+    "metaKeywords": "règlement W3, W3 Hostel, check-in Luodong, règles hébergement Luodong",
+    "heroKicker": "À lire avant votre arrivée",
+    "heroDescG": "Cher voyageur, veuillez lire attentivement le règlement de séjour de W3.",
+    "heroDescF": "Chère voyageuse, veuillez lire attentivement le règlement W3 pour la chambre réservée aux femmes.",
+    "doorTitle": "Ouverture de la porte de la chambre femmes au 2e étage",
+    "doorText": "Tapotez doucement avec la paume le panneau noir au-dessus de la poignée. Lorsque le clavier s’allume, saisissez 0️⃣6️⃣0️⃣6️⃣＊️⃣ pour ouvrir la porte. Si la porte ne réagit pas, poussez-la fermement une fois puis essayez à nouveau.",
+    "important": "Information importante",
+    "sectionTitle": "Règlement de séjour",
+    "thanks": "Merci de votre coopération. Nous vous souhaitons un agréable séjour !",
+    "bank": "Banque : CTBC Bank (822)",
+    "account": "Compte : 164540272344",
+    "wifiTitle": "Wi-Fi gratuit",
+    "wifiName": "SSID : W3 Hostel 青旅",
+    "wifiPass": "Mot de passe : 13131313",
+    "transportTitle": "Locations recommandées",
+    "bike": "Vélo : Jincheng Rental (No. 1, Zhanqian N. Rd., Luodong, Yilan / 03-9565678)",
+    "scooter": "Scooter : Dabo United Rental Luodong (No. 30, Gongzheng Rd., Luodong, Yilan / 03-9550513)",
+    "parkingIntro": "Les vélos, scooters et grosses cylindrées peuvent être garés sur le côté de W3. Merci de stationner proprement, l’avant du véhicule face au mur.",
+    "parkingTitle": "Informations sur les parkings gratuits :",
+    "rules": [
+      "W3 Hostel fonctionne avec un système d’accès autonome. Si vous n’avez pas reçu les instructions le jour de votre arrivée, appelez le 0937-096-423 une fois devant l’entrée de W3. Le propriétaire vous aidera en ligne. Pour les questions non urgentes pendant votre séjour, vous pouvez aussi laisser un message sur Line : @749azqqe.",
+      "Avant de contacter W3 pour l’arrivée, préparez votre numéro de commande ou votre code de réservation. Au moins 30 % du montant de la chambre doit être réglé trois jours avant l’arrivée. Si la plateforme de réservation ne vous a pas encore débité, veuillez confirmer le paiement auprès de cette plateforme et demander votre numéro de commande. La carte bancaire fournie lors de l’inscription sert uniquement à la vérification d’identité et ne constitue pas une preuve de paiement. Vous pouvez également payer par ATM ou banque en ligne, puis nous envoyer les cinq derniers chiffres du compte débité pour vérification.",
+      "Si vous souhaitez déposer vos bagages avant l’arrivée ou après le départ, placez-les près de la porte du local de rangement à gauche après l’entrée. Après être entré, rangez vos chaussures extérieures dans le meuble à chaussures à droite et mettez les chaussons d’intérieur.",
+      "Il est strictement interdit de manger ou de boire dans les dortoirs des 2e et 3e étages.",
+      "W3 met à disposition une fontaine à eau, des sèche-cheveux, une cuisine partagée, une salle à manger, un réfrigérateur, une machine à laver gratuite avec lessive, une salle multimédia, un salon, un étage d’observation du paysage et des étoiles, ainsi que le Wi-Fi dans tout le bâtiment. Merci d’apporter vos articles de toilette et d’hygiène personnels.",
+      "Chaque lit dispose d’un casier. Le numéro de la clé correspond au numéro du lit, et le badge fourni permet d’ouvrir la serrure électronique de l’entrée principale.",
+      "L’arrivée se fait de 16:00 à 22:00. Afin de préserver les droits de tous les clients, les arrivées hors horaire ne sont pas acceptées et les réservations ne peuvent être ni annulées ni remboursées. Le départ se fait avant 12:00 le lendemain. En cas de prolongation, il n’est pas nécessaire de changer de lit. Si vous souhaitez changer les draps, veuillez effectuer le départ avant 12:00 puis refaire l’arrivée après 16:00. Gardez soigneusement la clé du casier et le badge. Au départ, remettez la clé dans le casier. En cas de perte, des frais de remplacement de NT$350 seront facturés.",
+      "Les lits sont choisis sur place selon l’ordre d’arrivée. La présélection ou la réservation d’un lit n’est pas proposée. Pour tout besoin particulier ou essentiel, veuillez contacter W3 à l’avance.",
+      "Pour l’hygiène et le bon usage des espaces communs, n’utilisez pas les équipements d’un autre lit, comme oreillers, couvertures ou cintres. Évitez également d’occuper longtemps les objets communs, comme ventilateurs ou poubelles. Des frais supplémentaires peuvent être appliqués selon la situation.",
+      "Il est strictement interdit de fumer ou d’utiliser des drogues récréatives dans tous les espaces intérieurs, les salles de bain, les toilettes et les espaces communs, y compris l’étage d’observation sur le toit. Toute infraction sera signalée aux autorités ou à la police, et W3 demandera réparation des pertes conformément à la loi."
+    ]
+  },
+  "de": {
+    "generalTitle": "W3 Hausregeln",
+    "femaleTitle": "W3 Hausregeln - nur für Frauen",
+    "generalMetaTitle": "W3 Hausregeln｜W3 Hostel",
+    "femaleMetaTitle": "W3 Hausregeln - nur für Frauen｜W3 Hostel",
+    "metaDescription": "Hausregeln des W3 Hostel: Self-Check-in, Zahlung, Zugang, Check-out, Gemeinschaftsbereiche, WLAN, Verleih und Parken.",
+    "metaKeywords": "W3 Hausregeln, W3 Hostel, Luodong Hostel Check-in, Unterkunftsregeln Luodong",
+    "heroKicker": "Bitte vor der Anreise lesen",
+    "heroDescG": "Liebe Gäste, bitte lesen Sie die folgenden W3 Hausregeln sorgfältig durch.",
+    "heroDescF": "Liebe Gäste, bitte lesen Sie die folgenden W3 Hinweise für den Frauenbereich sorgfältig durch.",
+    "doorTitle": "So öffnen Sie die Tür zum Frauenbereich im 2. Stock",
+    "doorText": "Tippen Sie mit der Handfläche leicht auf das schwarze Feld über dem Griff. Sobald die Tasten erscheinen, geben Sie 0️⃣6️⃣0️⃣6️⃣＊️⃣ ein, um die Tür zu öffnen. Falls die Tür nicht reagiert, drücken Sie sie einmal kräftig an und versuchen Sie es erneut.",
+    "important": "Wichtiger Hinweis",
+    "sectionTitle": "Hausregeln",
+    "thanks": "Vielen Dank für Ihre Mithilfe. Wir wünschen Ihnen einen angenehmen Aufenthalt!",
+    "bank": "Bank: CTBC Bank (822)",
+    "account": "Konto: 164540272344",
+    "wifiTitle": "Kostenloses WLAN",
+    "wifiName": "SSID: W3 Hostel 青旅",
+    "wifiPass": "Passwort: 13131313",
+    "transportTitle": "Empfohlene Vermietungen",
+    "bike": "Fahrrad: Jincheng Rental (No. 1, Zhanqian N. Rd., Luodong, Yilan / 03-9565678)",
+    "scooter": "Motorroller: Dabo United Rental Luodong (No. 30, Gongzheng Rd., Luodong, Yilan / 03-9550513)",
+    "parkingIntro": "Fahrräder, Motorroller und große Motorräder können an der Seite von W3 abgestellt werden. Bitte parken Sie ordentlich mit der Front zur Wand.",
+    "parkingTitle": "Informationen zu kostenlosen Parkplätzen:",
+    "rules": [
+      "Das W3 Hostel nutzt ein Self-Service-Zugangssystem. Wenn Sie am Anreisetag noch keine Check-in-Informationen erhalten haben, rufen Sie bitte beim Eintreffen am Eingang von W3 unter 0937-096-423 an. Der Eigentümer unterstützt Sie online. Für nicht dringende Fragen während Ihres Aufenthalts können Sie auch eine Nachricht über Line: @749azqqe hinterlassen.",
+      "Bitte halten Sie Ihre Bestellnummer oder Ihren Reservierungscode bereit, bevor Sie W3 zum Check-in kontaktieren. Mindestens 30 % des Zimmerpreises müssen drei Tage vor der Anreise bezahlt werden. Falls die Buchungsplattform noch keine Zahlung abgebucht hat, bestätigen Sie bitte den Zahlungsstatus direkt bei der ursprünglichen Plattform und lassen Sie sich die Bestellnummer geben. Die bei der Plattformregistrierung hinterlegte Kreditkarte dient nur der Identitätsprüfung und ist kein Zahlungsnachweis. Sie können auch per ATM oder Online-Banking überweisen und uns anschließend die letzten fünf Ziffern des belasteten Kontos zur Prüfung senden.",
+      "Wenn Sie Gepäck vor dem Check-in oder nach dem Check-out abstellen möchten, platzieren Sie es bitte nach dem Eingang links neben der Tür zum Abstellraum. Nach dem Betreten stellen Sie bitte Ihre Straßenschuhe in den Schuhschrank rechts und wechseln in Hausschuhe.",
+      "Essen und Trinken ist in den Schlafbereichen im zweiten und dritten Stock vollständig untersagt.",
+      "W3 stellt Wasserspender, Haartrockner, Gemeinschaftsküche, Essbereich, Kühlschrank, kostenlose Waschmaschine inklusive Waschmittel, Medienraum, Lounge, Aussichts-/Sternenbeobachtungsetage und WLAN im gesamten Gebäude bereit. Bitte bringen Sie persönliche Wasch- und Hygieneartikel selbst mit.",
+      "Zu jedem Bett gehört ein Schließfach. Die Schlüsselnummer entspricht der Bettnummer, und der beigefügte Zugangschip kann für das elektronische Schloss der Eingangstür genutzt werden.",
+      "Der Check-in ist von 16:00 bis 22:00 möglich. Zum Schutz aller Gäste können verspätete Check-ins nicht angenommen werden; Stornierungen oder Rückerstattungen sind dann ebenfalls nicht möglich. Check-out ist am Folgetag bis 12:00. Bei Verlängerung des Aufenthalts ist kein Bettwechsel nötig. Wenn Sie frische Bettwäsche wünschen, checken Sie bitte bis 12:00 aus und nach 16:00 erneut ein. Bitte bewahren Sie Schließfachschlüssel und Zugangschip sorgfältig auf. Beim Check-out legen Sie den Schlüssel zurück ins Schließfach. Bei Verlust fällt eine Ersatzgebühr von NT$350 an.",
+      "Die Betten werden vor Ort nach dem Prinzip „wer zuerst kommt, wählt zuerst“ vergeben. Eine Vorabauswahl oder Reservierung einzelner Betten ist nicht möglich. Bei besonderen oder notwendigen Bedürfnissen kontaktieren Sie W3 bitte im Voraus.",
+      "Zur Wahrung von Hygiene und Ordnung nutzen Sie bitte keine Ausstattung anderer Betten, z. B. Kissen, Decken oder Kleiderbügel. Bitte belegen Sie auch gemeinschaftliche Gegenstände wie Ventilatoren oder Mülleimer nicht über längere Zeit. Je nach Situation können zusätzliche Gebühren berechnet werden.",
+      "Rauchen und der Konsum von Freizeitdrogen sind in allen Innenräumen, Bädern, Toiletten und Gemeinschaftsbereichen einschließlich der Dachterrasse streng verboten. Verstöße werden den zuständigen Behörden oder der Polizei gemeldet; W3 wird damit verbundene Schäden nach geltendem Recht geltend machen."
+    ]
+  },
+  "es": {
+    "generalTitle": "Normas de W3",
+    "femaleTitle": "Normas de W3 - solo mujeres",
+    "generalMetaTitle": "Normas de W3｜W3 Hostel",
+    "femaleMetaTitle": "Normas de W3 - solo mujeres｜W3 Hostel",
+    "metaDescription": "Normas de W3 Hostel: auto check-in, pago, acceso, salida, espacios comunes, Wi-Fi, alquileres y estacionamiento.",
+    "metaKeywords": "normas W3, W3 Hostel, check-in Luodong, reglas alojamiento Luodong",
+    "heroKicker": "Léalo antes de llegar",
+    "heroDescG": "Estimado huésped, lea atentamente las siguientes normas de W3.",
+    "heroDescF": "Estimada huésped, lea atentamente las siguientes normas de W3 para la habitación exclusiva de mujeres.",
+    "doorTitle": "Cómo abrir la puerta de la habitación femenina del 2.º piso",
+    "doorText": "Toque suavemente con la palma el panel negro situado sobre la manilla. Cuando aparezcan las teclas, introduzca 0️⃣6️⃣0️⃣6️⃣＊️⃣ para abrir la puerta. Si la puerta no responde, empújela con firmeza una vez y vuelva a intentarlo.",
+    "important": "Aviso importante",
+    "sectionTitle": "Normas de alojamiento",
+    "thanks": "Gracias por su colaboración. ¡Le deseamos una estancia agradable!",
+    "bank": "Banco: CTBC Bank (822)",
+    "account": "Cuenta: 164540272344",
+    "wifiTitle": "Wi-Fi gratuito",
+    "wifiName": "SSID: W3 Hostel 青旅",
+    "wifiPass": "Contraseña: 13131313",
+    "transportTitle": "Alquileres recomendados",
+    "bike": "Bicicleta: Jincheng Rental (No. 1, Zhanqian N. Rd., Luodong, Yilan / 03-9565678)",
+    "scooter": "Moto/scooter: Dabo United Rental Luodong (No. 30, Gongzheng Rd., Luodong, Yilan / 03-9550513)",
+    "parkingIntro": "Se pueden estacionar bicicletas, scooters y motocicletas grandes en el lateral de W3. Estacione ordenadamente con la parte delantera mirando hacia la pared.",
+    "parkingTitle": "Información de estacionamiento gratuito:",
+    "rules": [
+      "W3 Hostel utiliza un sistema de acceso autónomo. Si el día de llegada aún no ha recibido las instrucciones de check-in, llame al 0937-096-423 al llegar a la entrada de W3. El propietario le ayudará en línea. Para consultas no urgentes durante su estancia, también puede dejar un mensaje por Line: @749azqqe.",
+      "Antes de contactar con W3 para el check-in, tenga preparado su número de pedido o código de reserva. Debe abonarse al menos el 30 % del precio de la habitación tres días antes de la llegada. Si la plataforma de reserva aún no le ha cobrado, confirme el estado del pago con la plataforma original y solicite su número de pedido. La tarjeta de crédito registrada en la plataforma se usa solo para verificación de identidad y no es comprobante de pago. También puede pagar mediante ATM o banca en línea y enviarnos los últimos cinco dígitos de la cuenta emisora para verificación.",
+      "Si necesita dejar equipaje antes del check-in o después del check-out, colóquelo junto a la puerta del cuarto de almacenamiento a la izquierda después de entrar. Al entrar por la puerta principal, deje sus zapatos de exterior en el zapatero de la derecha y póngase las zapatillas de interior.",
+      "Está totalmente prohibido comer o beber en las zonas de dormitorio del segundo y tercer piso.",
+      "W3 ofrece dispensador de agua, secadores de pelo, cocina compartida, comedor, refrigerador, lavadora gratuita con detergente, sala multimedia, salón, planta de observación del paisaje y las estrellas, y Wi-Fi en todo el edificio. Traiga sus propios artículos personales de aseo e higiene.",
+      "Cada cama incluye un casillero. El número de la llave coincide con el número de la cama, y el llavero de acceso incluido sirve para la cerradura electrónica de la entrada principal.",
+      "El check-in es de 16:00 a 22:00. Para proteger los derechos de todos los huéspedes, no se aceptan llegadas fuera de horario y no se permiten cancelaciones ni reembolsos. El check-out es antes de las 12:00 del día siguiente. Si prolonga la estancia, no necesita cambiar de cama. Si necesita sábanas limpias, haga el check-out antes de las 12:00 y vuelva a hacer el check-in después de las 16:00. Guarde bien la llave del casillero y el llavero de acceso. Al salir, devuelva la llave al casillero. En caso de pérdida, se cobrará una tarifa de reemplazo de NT$350.",
+      "Las camas se eligen por orden de llegada en el lugar. No se ofrece selección anticipada ni reserva de camas. Si tiene una necesidad especial o esencial, contacte con W3 con antelación.",
+      "Para mantener la higiene y el orden común, no utilice artículos de otras camas, como almohadas, mantas o perchas. Evite también ocupar durante mucho tiempo objetos compartidos como ventiladores o basureros. Se podrán cobrar cargos adicionales según la situación.",
+      "Está estrictamente prohibido fumar o consumir drogas recreativas en todos los espacios interiores, baños y zonas comunes, incluida la planta mirador de la azotea. Las infracciones se comunicarán a las autoridades o a la policía, y W3 reclamará legalmente la compensación por las pérdidas correspondientes."
+    ]
+  }
+};
+Object.keys(houserulesTranslations).forEach((lang) => {
+  translations[lang] = translations[lang] || {};
+  translations[lang].houserules = houserulesTranslations[lang];
+});
+
 function getValueByPath(obj, path) {
   return path.split(".").reduce((acc, key) => acc?.[key], obj);
 }
@@ -1238,17 +1511,22 @@ function setButtonState(lang) {
 
 function applyMetaByPage(t) {
   const path = window.location.pathname;
-  let pageKey = "home";
+  let pageKey = document.body?.dataset?.pageKey || "home";
 
   if (path.endsWith("/w3.html") || path.endsWith("w3.html")) pageKey = "about";
   else if (path.endsWith("/space.html") || path.endsWith("space.html")) pageKey = "space";
   else if (path.endsWith("/travel.html") || path.endsWith("travel.html")) pageKey = "travel";
   else if (path.endsWith("/contact.html") || path.endsWith("contact.html")) pageKey = "contact";
+  else if (path.endsWith("/houserules_G.html") || path.endsWith("houserules_G.html") || path.endsWith("/houserules_F.html") || path.endsWith("houserules_F.html")) pageKey = "houserules";
 
   const page = t[pageKey];
   if (!page) return;
 
-  if (page.metaTitle) document.title = page.metaTitle;
+  const variant = document.body?.dataset?.pageVariant;
+  const variantMetaTitle = variant === "female" ? page.femaleMetaTitle : page.generalMetaTitle;
+  const variantOgTitle = variant === "female" ? page.femaleMetaTitle : page.generalMetaTitle;
+  if (variantMetaTitle) document.title = variantMetaTitle;
+  else if (page.metaTitle) document.title = page.metaTitle;
 
   const metaDesc = document.querySelector('meta[name="description"]');
   if (metaDesc && page.metaDescription) metaDesc.setAttribute("content", page.metaDescription);
@@ -1257,7 +1535,8 @@ function applyMetaByPage(t) {
   if (metaKeywords && page.metaKeywords) metaKeywords.setAttribute("content", page.metaKeywords);
 
   const ogTitle = document.querySelector('meta[property="og:title"]');
-  if (ogTitle && page.ogTitle) ogTitle.setAttribute("content", page.ogTitle);
+  if (ogTitle && variantOgTitle) ogTitle.setAttribute("content", variantOgTitle);
+  else if (ogTitle && page.ogTitle) ogTitle.setAttribute("content", page.ogTitle);
 
   const ogDesc = document.querySelector('meta[property="og:description"]');
   if (ogDesc && page.ogDescription) ogDesc.setAttribute("content", page.ogDescription);

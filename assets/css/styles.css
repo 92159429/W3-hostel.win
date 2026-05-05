@@ -1563,3 +1563,193 @@ body { overflow-x: hidden; }
     padding: 0.36rem 0.54rem;
     font-size: 0.7rem;
 }
+
+
+/* House rules pages */
+.rules-nav {
+  align-items: center;
+}
+.rules-nav .brand {
+  cursor: default;
+}
+.header-lang {
+  justify-content: flex-end;
+  max-width: 760px;
+}
+.rules-hero {
+  min-height: 54vh;
+  display: grid;
+  align-items: end;
+}
+.rules-hero .container {
+  padding: 8rem 0 5rem;
+}
+.rules-hero h2 {
+  max-width: 860px;
+  font-size: clamp(1.05rem, 2vw, 1.45rem);
+  line-height: 1.72;
+  font-weight: 600;
+  text-shadow: 0 12px 32px rgba(12,20,38,0.26);
+}
+.rules-section {
+  padding: clamp(3rem, 6vw, 6rem) 0;
+}
+.rules-layout {
+  display: grid;
+  gap: clamp(1.3rem, 2.6vw, 2.2rem);
+}
+.rules-alert,
+.rules-card,
+.rules-thanks {
+  border: var(--border-soft);
+  border-radius: var(--radius-lg);
+  background: rgba(255,255,255,0.84);
+  box-shadow: var(--shadow-card);
+  backdrop-filter: blur(16px) saturate(150%);
+}
+.rules-alert {
+  padding: clamp(1.4rem, 3vw, 2.2rem);
+  border-color: rgba(221, 107, 45, 0.22);
+  background: linear-gradient(135deg, rgba(255,255,255,0.92), rgba(255,247,241,0.86));
+}
+.rules-alert-kicker {
+  display: inline-flex;
+  margin-bottom: .7rem;
+  padding: .42rem .78rem;
+  border-radius: 999px;
+  color: var(--tangerine-tango);
+  background: rgba(221,107,45,0.10);
+  font-size: .82rem;
+  font-weight: 800;
+  letter-spacing: .14em;
+  text-transform: uppercase;
+}
+.rules-alert h2 {
+  margin: 0 0 .55rem;
+  font-family: "Cormorant Garamond", "Noto Serif TC", serif;
+  font-size: clamp(1.9rem, 3.4vw, 3.2rem);
+  line-height: 1.05;
+  color: #28496f;
+}
+.rules-alert p,
+.rules-info-card p,
+.rules-thanks {
+  margin: 0;
+  color: var(--ink);
+}
+.rules-card {
+  padding: clamp(1.35rem, 3vw, 2.6rem);
+}
+.rules-head {
+  margin-bottom: 1.4rem;
+}
+.rules-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  counter-reset: rules;
+  display: grid;
+  gap: 1rem;
+}
+.rules-list li {
+  counter-increment: rules;
+  position: relative;
+  padding: clamp(1rem, 2vw, 1.25rem) clamp(1rem, 2vw, 1.35rem) clamp(1rem, 2vw, 1.25rem) clamp(3.7rem, 6vw, 4.4rem);
+  border-radius: 24px;
+  border: 1px solid rgba(118,135,158,0.13);
+  background: linear-gradient(135deg, rgba(255,255,255,0.92), rgba(245,248,252,0.74));
+  box-shadow: 0 16px 38px rgba(119,135,161,0.09);
+}
+.rules-list li::before {
+  content: counter(rules, decimal-leading-zero);
+  position: absolute;
+  left: 1rem;
+  top: 1rem;
+  width: 2.15rem;
+  height: 2.15rem;
+  display: grid;
+  place-items: center;
+  border-radius: 999px;
+  color: #fff;
+  background: var(--gradient-accent);
+  font-size: .78rem;
+  font-weight: 800;
+  box-shadow: 0 12px 28px rgba(54,95,151,0.18);
+}
+.rules-info-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: clamp(1rem, 2vw, 1.35rem);
+}
+.rules-info-card h3 {
+  margin-top: 0;
+}
+.rules-parking-card {
+  grid-column: 1 / -1;
+}
+.parking-links {
+  margin: 1rem 0 0;
+  padding: 0;
+  list-style: none;
+  display: grid;
+  gap: .55rem;
+}
+.parking-links a {
+  color: var(--directoire-blue);
+  word-break: break-word;
+  border-bottom: 1px solid rgba(54,95,151,0.22);
+}
+.rules-thanks {
+  padding: clamp(1.2rem, 2.6vw, 1.8rem);
+  text-align: center;
+  font-weight: 800;
+  color: var(--directoire-blue);
+}
+@media (max-width: 900px) {
+  .rules-nav {
+    align-items: flex-start;
+  }
+  .header-lang {
+    width: 100%;
+    justify-content: flex-start;
+    gap: .4rem;
+  }
+  .header-lang button {
+    padding: .62rem .78rem;
+    font-size: .9rem;
+  }
+  .rules-hero {
+    min-height: 48vh;
+  }
+  .rules-hero .container {
+    padding: 6rem 0 3.5rem;
+  }
+  .rules-info-grid {
+    grid-template-columns: 1fr;
+  }
+}
+@media (max-width: 560px) {
+  .container { width: min(100% - 1.15rem, var(--max)); }
+  .rules-list {
+    gap: .8rem;
+  }
+  .rules-list li {
+    padding: 3.65rem 1rem 1rem;
+    border-radius: 22px;
+  }
+  .rules-list li::before {
+    left: 1rem;
+    top: .9rem;
+  }
+  .rules-alert,
+  .rules-card,
+  .rules-thanks {
+    border-radius: 28px;
+  }
+  .header-lang button {
+    flex: 1 1 auto;
+    text-align: center;
+  }
+}
+
+.rules-subnote { margin-top: .8rem; padding: .85rem 1rem; border-radius: 18px; background: rgba(99,197,218,0.09); color: var(--directoire-blue); font-weight: 700; }
